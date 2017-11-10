@@ -4,7 +4,8 @@
   "description": "graphql server for customerbase",
   "main": "server.js",
   "scripts": {
-    "dev:server": "nodemon server.js"
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
   },
   "keywords": [
     "graphql"
@@ -12,9 +13,12 @@
   "author": "xinyang",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.17.0",
     "express": "^4.16.2",
     "express-graphql": "^0.6.11",
     "graphql": "^0.11.7",
-    "nodemon": "^1.12.1"
+    "json-server": "^0.12.1",
+    "nodemon": "^1.12.1",
+    "s": "^0.1.1"
   }
 }
